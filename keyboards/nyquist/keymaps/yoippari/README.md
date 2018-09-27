@@ -1,14 +1,13 @@
-losinggeneration's Nyquist Layout
+yoippari's Nyquist Layout
 ============================
 
 See description of the layout in the common folder
-[here](../../../../users/losinggeneration/README.md)
+[here](../../../../users/yoippari/README.md)
 
 ## Features
 - Adjust
-  - Removed AGSwap, AGNorm, & Del
-  - Added Caps Lock, F1-F12 in a 4x3 grid, arrow cluster, and layer transitions
-    to the new layers.
+  - Removed numpad and mouse layers
+  - kept the rest of losing generations changes
 
 ## Layouts
 
