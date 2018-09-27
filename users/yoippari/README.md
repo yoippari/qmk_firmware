@@ -5,7 +5,7 @@ yoippari's ortholinear layout
 
 - Main layer(s)
   - Two unit space bar right side only.
-  - Caplock moved to Lower layer OS and Control swapped to Dvorak positon on all layouts. 
+  - Caplock moved to Adjust layer Shift and Control swapped to Dvorak positon on all layouts. 
   - Left Alt when tapped once & Right Alt when tapped twice.
   - Enter when tapped Shift when held.
   - Shift Esc gives ~.
