@@ -5,17 +5,18 @@ yoippari's ortholinear layout
 
 - Main layer(s)
   - Two unit space bar right side only.
-  - Caplock moved to Lower OS and Control swapped to Dvorak positon on all layouts. 
+  - Caplock moved to Lower layer OS and Control swapped to Dvorak positon on all layouts. 
   - Left Alt when tapped once & Right Alt when tapped twice.
-  - Left shift is a one shot modifier.
   - Enter when tapped Shift when held.
   - Shift Esc gives ~.
   - PgUp and PgDn on main layer
 - Lower & Fn
-  - Replaced raise with FN
+  - Replaced raise with FN, will probably change back.
   - Added Home, & End under PgUp and PgDn
+  - Home, End, PgUp and PgDn also on fn layer in the middle of the board to see what I like better.
   - Added Vol to Fn Layer
-  - NumPad and layout switching added to Lower
+  - NumPad on Lower layer.
+  - Probably have lower and fn/raise backwards.
 - Removed Numpad and Mouse
 
 ## Layouts
