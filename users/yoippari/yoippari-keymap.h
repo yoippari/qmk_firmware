@@ -154,9 +154,11 @@ qk_tap_dance_action_t tap_dance_actions[] = {
 
 /* Lower
  * ,-----------------------------------------..-----------------------------------------.
+ * |      |      |      |      |      |      || NLCK |   7  |   8  |   9  |   *  | BKSP |
+ * |------+------+------+------+------+------||------+------+------+------+------+------|
  * |      |      |   [  |   ]  |   |  | HOME || PGUP |   4  |   5  |   6  |   +  |  -   |
  * |------+------+------+------+------+------||------+------+------+------+------+------|
- * | CTRL |      |      |      |      | END  || PGDN |   1  |   2  |   3  |      |  =   |
+ * | CTRL |      |      |      |  = + | END  || PGDN |   1  |   2  |   3  |      |  =   |
  * |------+------+------+------+------+------||------+------+------+------+------+------|
  * | SHIFT|      |      |      |      |      ||      |   0  |   ,  |   .  |   /  |  ENT |
  * |------+------+------+------+------+------||------+------+------+------+------+------|
@@ -164,10 +166,11 @@ qk_tap_dance_action_t tap_dance_actions[] = {
  * `-----------------------------------------'`-----------------------------------------'
  */
 #define LOWER_LAYER \
-  KC_NO   , KC_NO  , KC_LBRC  , KC_RBRC  , KC_BSLS  , KC_HOME  , KC_PGUP  , KC_KP_4  , KC_KP_5  , KC_KP_6  , KC_PPLS , KC_PMNS  , \
-  KC_LCTL , KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_END   , KC_PGDN  , KC_KP_1  , KC_KP_2  , KC_KP_3  , KC_NO   , KC_PEQL , \
-  STD_LSFT_ROW( KC_NO  , KC_NO  , KC_NO , KC_NO , KC_NO  , KC_NO    , KC_KP_0  , KC_COMM  , KC_DOT  , KC_PSLS) ,       \
-  KC_LGUI  ,KC_HOME , KC_END , KC_LALT , _______, KC_SPC , _______ , _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT
+  KC_TILD     , KC_NO  , KC_NO    , KC_NO    , KC_NO    , KC_NO    , KC_NLCK  , KC_KP_7  , KC_KP_8  , KC_KP_9  , KC_PAST , KC_BSPC  , \
+  KC_NO       , KC_NO  , KC_LBRC  , KC_RBRC  , KC_BSLS  , KC_HOME  , KC_PGUP  , KC_KP_4  , KC_KP_5  , KC_KP_6  , KC_PPLS , KC_PMNS  , \
+  KC_LCTL     , KC_NO  , KC_NO    , KC_NO    , KC_EQL   , KC_END   , KC_PGDN  , KC_KP_1  , KC_KP_2  , KC_KP_3  , KC_NO   , KC_PEQL , \
+  STD_LSFT_ROW( KC_NO  , KC_NO    , KC_NO    , KC_NO    , KC_NO    , KC_NO    , KC_KP_0  , KC_COMM  , KC_DOT   , KC_PSLS) ,       \
+  KC_LGUI     ,KC_HOME , KC_END   , KC_LALT  , _______  , KC_SPC   , _______  , _______  , KC_LEFT  , KC_DOWN  , KC_UP    , KC_RGHT
 
 /* FN
 *,------+------+------+------+------+------||------+------+------+------+------+------.
