@@ -58,7 +58,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
  * `-----------------------------------------'`-----------------------------------------'
  */
 
-#define STD_CTRL_ROW(...) TD_CTL, __VA_ARGS__, KC_QUOT
+#define STD_CTRL_ROW(...) KC_LCTL, __VA_ARGS__, KC_QUOT
 
 /*
  * ,-----------------------------------------..-----------------------------------------.
@@ -187,7 +187,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
   KC_NO   , KC_F1  , KC_F2   , KC_F3    , KC_F4   , KC_NO  , KC_VOLU, KC_NO  ,KC_PSCR   ,KC_PAUS   ,KC_NO   ,KC_DEL  ,\
   KC_LCTL , KC_F5  , KC_F6   , KC_F7    , KC_F8   , KC_NO  , KC_VOLD, KC_NO  ,KC_NO   ,KC_NO   ,KC_NO   ,KC_INS   ,\
   KC_LSFT , KC_F9  , KC_F10  ,  KC_F11  , KC_F12  , KC_NO  , KC_MUTE, KC_NO  ,KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,\
-  KC_LGUI ,KC_HOME , KC_END  , TD_ALT   , _______ , _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT
+  KC_LGUI ,KC_HOME , KC_END  , KC_LALT  , _______ , _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT
 
 
 #ifdef AUDIO_ENABLE
