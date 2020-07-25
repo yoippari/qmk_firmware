@@ -41,7 +41,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
  * `-----------------------------------------'`-----------------------------------------'
  */
 #define BOTTOM_GRID_ROW \
-  KC_LGUI , KC_PGUP, KC_PGDN, TD_ALT, FN  , KC_SPC , LT(_LOWER, KC_SPC) , LT(_LOWER, KC_SPC)  , KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT
+  KC_LGUI , KC_PGUP, KC_PGDN, KC_LALT, FN  , KC_SPC , LT(_LOWER, KC_SPC) , LT(_LOWER, KC_SPC)  , KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT
 
 
 
